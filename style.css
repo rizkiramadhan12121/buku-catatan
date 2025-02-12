@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: white;
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    background: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.input-container input, .input-container textarea {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+.input-container textarea {
+    resize: none;
+    height: 100px;
+}
+.note {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.note-header strong {
+    font-size: 24px;
+    font-family: monospace;
+}
+.note-buttons {
+    display: flex;
+    gap: 10px;
+}
+.delete-btn, .edit-btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.delete-btn {
+    background: red;
+    color: white;
+}
+.edit-btn {
+    background: yellow;
+    color: black;
+}
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.social-links {
+    width: 100%;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.social-links h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #9f7aea;
+}
